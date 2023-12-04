@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+    
+}
+
+.main{
+    height: 100%;
+    width: 100%;
+   
+
+}
+
+.one{
+  
+    height: 100px;
+    width: 100%;  
+   
+}
+.box{
+    height: 90px;
+    width: 230px;
+   
+    transform: translateX(58px) translateY(2px);
+    border: none;
+    padding: 5px 5px;
+   
+    
+}
+
+.box img{
+    height: 90%;
+    width: 100%;
+    object-fit: cover;
+    
+}
+
+.two{
+    height: 80px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 80px;
+    background-color: purple;
+    
+}
+
+.two h2{
+    color:lavender;
+    font-weight: 400;
+    font-family: Gilroy;
+    font-size: 22px;
+    text-transform: uppercase;
+}
+
+a{
+    text-decoration: none;
+}
+
+.two button{
+    padding:25px 35px ;
+    background-color: black;
+    color: white;
+    font-family: helvetica;
+    font-size: 18px;
+    border: none;
+    border-radius: 24px;
+}
+.two #b{
+    transform: translateX(-68px);
+    background-color: whitesmoke;
+    color: black;
+}
+
+.three{
+    margin-top: 25px;
+    height: 70vh;
+    width: 100%;
+  
+    display: flex;
+}
+
+.four{
+    height: 100%;
+    width: 50%;
+   
+    padding: 25px 0;
+}
+
+.four h1{
+    font-size: 98px;
+    font-family:Montserrat;
+    font-weight: 800;
+    
+    color: rgb(29, 29, 29);
+
+}
+
+.four p{
+    font-size: 22px;
+    color: gray;
+    font-weight: 400;
+    font-family: gilroy light;
+    width: 500px;
+    margin-left: 88px;
+    margin-top: 38px;
+    
+
+}
+
+.four button{
+    font-size: 24px;
+    color: royalblue;
+    
+    padding: 28px 55px;
+    font-family: Gilroy;
+    font-weight: 500;
+    margin-top: 12%;
+    margin-left:218px ;
+    border: none;
+    border: 1px solid rgba(0, 0, 0, 0.685);
+    border-radius: 14px;
+}
+
+button:hover{
+    background-color: royalblue;
+    color: aliceblue;
+    transition: all ease;
+}
+.five{
+    height: 100%;
+    width: 50%;
+  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.five .kol{
+    height: 350px;
+    width: 350px;
+    background-color: yellow;
+    border-radius: 28px;
+    background-image: url(https://www.wholesalecatalog.in/images/product/sub_images/2021/12/Imported-Sequence-Readymade-designer-blouse-collection-9.jpeg);
+    background-size: cover;
+    background-position: top;
+}
